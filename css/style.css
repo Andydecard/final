@@ -1,0 +1,65 @@
+body {
+  background-image:url(img/photo.png);
+  background-repeat: no-repeat;
+}
+
+.logo {
+  width: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.logo:hover .logo-icon {
+  fill: #c7b299;
+}
+
+.logo:hover .logo-txt {
+  color: #c7b299;
+}
+
+
+.logo-icon {
+  fill: white;
+}
+
+
+.logo-txt {
+  font-size: 34px;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  min-width:  300px;
+  max-width: 637px;        
+  padding: 0;
+  background-color: #36393c;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li {
+  
+}
+
+ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.button {
+    background-repeat: no-repeat;
+    padding: 0;
+    border: none;
+    background: none;
+}
